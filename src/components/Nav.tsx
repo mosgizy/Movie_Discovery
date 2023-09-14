@@ -19,7 +19,7 @@ const Nav = () => {
           <Image src="/icons/tv.png" alt="" width={40} height={40} />
           <span>MovieBox</span>
         </div>
-        <div className="w-full relative text-white hidden md:block">
+        <form className="w-full relative text-white hidden md:block">
           <input
             type="text"
             value={search}
@@ -30,19 +30,19 @@ const Nav = () => {
           <span className="absolute top-1/2 -translate-y-1/2 right-4">
             {searchIcon}
           </span>
-        </div>
+        </form>
         <div className="flex-center gap-6 place-content-end">
           <span>Sign in</span>
           <span>{menuIcon}</span>
         </div>
-        <div className="w-full absolute -bottom-32">
+        {/* <div className="w-full absolute -bottom-32">
           <div className="w-[35%] mx-auto bg-white text-black rounded-lg px-5 py-3">
             <div className="">
               <Image src={''} alt="" width={70} height={70} />
               <span>hello world</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
