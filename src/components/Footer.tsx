@@ -6,7 +6,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mt-24">
+    <footer className="mt-32">
       <div className="flex flex-col gap-9 text-lg font-bold [&>div]:flex-center [&>div]:justify-between max-w-max mx-auto">
         <div className=" text-2xl max-w-max mx-auto gap-12">
           <FaFacebook />

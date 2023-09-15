@@ -54,7 +54,12 @@ const Card = ({ movie }: { movie: movieI }) => {
         </div>
       </div>
       <div className="flex flex-col gap-3 mt-3 text-gray-900 text-sm">
-        <p className="text-gray-400 text-sm font-bold">{movie.release_date}</p>
+        <p
+          className="text-gray-400 text-sm font-bold"
+          data-testid="movie-release-date"
+        >
+          {movie.release_date}
+        </p>
         <h2 className="text-lg font-bold" data-testid="movie-title">
           {movie.title}
         </h2>

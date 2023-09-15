@@ -41,9 +41,6 @@ const Details = ({ params }: { params: { id: number } }) => {
     return date.slice(0, date.length - 13);
   };
 
-  const date = new Date('2023-05-17').toUTCString();
-  // console.log(date);
-
   return (
     <section className="flex font-poppins">
       <aside className="border border-[rgba(0, 0, 0, 0.30)] max-w-max min-h-screen rounded-e-[2.8rem] py-12">
