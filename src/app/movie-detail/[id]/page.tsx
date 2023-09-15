@@ -18,7 +18,7 @@ const Details = ({ params }: { params: { id: number } }) => {
     `/api/getMovieById/${params.id}`
   );
 
-  console.log(movieData);
+  // console.log(movieData);
 
   if (!movieData) {
     return <Loader />;
@@ -42,7 +42,7 @@ const Details = ({ params }: { params: { id: number } }) => {
   };
 
   const date = new Date('2023-05-17').toUTCString();
-  console.log(date);
+  // console.log(date);
 
   return (
     <section className="flex font-poppins">

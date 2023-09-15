@@ -7,6 +7,7 @@ import Nav from '@/components/Nav';
 import Header from '@/components/Header';
 import Link from 'next/link';
 import Cards from '@/components/Cards';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -38,6 +39,7 @@ export default function Home() {
           <Cards />
         </div>
       </section>
+      <Footer />
     </main>
   );
 }
